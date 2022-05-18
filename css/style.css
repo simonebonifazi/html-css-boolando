@@ -97,19 +97,19 @@ main span {
     font-size: x-small;
 }
 
-.discount {
+.special-notes {
     position: absolute;
     bottom: 85px;
     left: 0;
+}
+
+.discount {
     background-color: #FF0000;
     color: #fff;
     padding: 4px;
 }
 
 .sustainability {
-    position: absolute;
-    bottom: 85px;
-    left: 35px;
     background-color: #008000;
     color: #fff;
     padding: 4px;
@@ -189,14 +189,25 @@ main span {
 
 /* FOOTER */
 footer {
-    min-height: 250px;
-    background-color: #1A1A1A
+    background-color: #1A1A1A;
+    color: #fff;
+    padding: 18px 0;
 }
 
-/* logos panel
-                        <a href="http://www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
-                        <a href="http://www.instagram.com"><i class="fa-brands fa-instagram-square"></i></a>
-                        <a href="http://www.facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
-                        <a href="http://www.youtube.com"><i class="fa-brands fa-youtube-square"></i></a>
-                        <a href="http://www.pinterest.com><i class="fa-brands fa-pinterest-square"></i></a>
-*/
+.spacing {
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.small-text {
+    font-size: smaller;
+}
+
+.footer-links {
+    font-size: x-small;
+}
