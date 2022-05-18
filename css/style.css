@@ -4,6 +4,7 @@ body {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /*  generics */
@@ -11,4 +12,47 @@ body {
 .container {
     max-width: 1080px;
     margin: 0 auto;
+}
+
+
+
+/* utils */
+.d-flex {
+    display: flex;
+}
+
+/* header */
+header {
+    color: #fff;
+    /* min-height: 100px; */
+    background-color: #FF6900;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 5px;
+    font-weight: bold;
+}
+
+.navbar img {
+    max-height: 35px;
+
+
+
+    /* logos panel 
+                        <a href="http://www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="http://www.instagram.com"><i class="fa-brands fa-instagram-square"></i></a>
+                        <a href="http://www.facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="http://www.youtube.com"><i class="fa-brands fa-youtube-square"></i></a>
+                        <a href="http://www.pinterest.com><i class="fa-brands fa-pinterest-square"></i></a>
+*/
 }
