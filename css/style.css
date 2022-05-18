@@ -19,6 +19,7 @@ body {
 /* utils */
 .d-flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* header */
@@ -54,19 +55,23 @@ main {
 }
 
 
-main img {
+.image {
     height: 500px;
-    width: 100%;
 }
 
 article {
     position: relative;
+    padding-bottom: 25px;
 }
 
-.column {
+.card {
     padding: 0 5px;
     flex-basis: 30%;
 }
+
+/* row {
+    justify-content: center;
+} */
 
 /* footer delle img */
 article p {
@@ -110,6 +115,65 @@ main span {
     padding: 4px;
 }
 
+.pass {
+
+    background-size: cover;
+    height: 503.75px;
+    width: 346.152px;
+    display: inline-block;
+}
+
+
+
+.pass.levis-profile {
+    background-image: url(../img/1.webp);
+}
+
+.pass.levis-profile:hover {
+    background-image: url(../img/1b.webp);
+}
+
+
+.pass.guess {
+    background-image: url(../img/2.webp);
+}
+
+.pass.guess:hover {
+    background-image: url(../img/2b.webp);
+}
+
+.pass.pastel {
+    background-image: url(../img/3.webp);
+}
+
+.pass.pastel:hover {
+    background-image: url(../img/3b.webp);
+}
+
+.pass.levis-unisex {
+    background-image: url(../img/4.webp);
+}
+
+.pass.levis-unisex:hover {
+    background-image: url(../img/4b.webp);
+}
+
+.pass.maya {
+    background-image: url(../img/5.webp);
+}
+
+.pass.maya:hover {
+    background-image: url(../img/5b.webp);
+}
+
+.pass.espirit {
+    background-image: url(../img/6.webp);
+}
+
+.pass.espirit:hover {
+    background-image: url(../img/6b.webp);
+}
+
 .heart {
     position: absolute;
     padding: 4px 10px;
@@ -117,6 +181,10 @@ main span {
     right: 0;
     top: 15px;
     font-size: x-large;
+}
+
+.heart:hover {
+    color: #FF0000;
 }
 
 /* FOOTER */
