@@ -131,6 +131,7 @@ main span {
 
 .pass.levis-profile:hover {
     background-image: url(../img/1b.webp);
+    content: '';
 }
 
 
@@ -140,6 +141,7 @@ main span {
 
 .pass.guess:hover {
     background-image: url(../img/2b.webp);
+    content: '';
 }
 
 .pass.pastel {
@@ -148,6 +150,7 @@ main span {
 
 .pass.pastel:hover {
     background-image: url(../img/3b.webp);
+    content: '';
 }
 
 .pass.levis-unisex {
@@ -155,6 +158,8 @@ main span {
 }
 
 .pass.levis-unisex:hover {
+    content: '';
+    ;
     background-image: url(../img/4b.webp);
 }
 
@@ -163,6 +168,7 @@ main span {
 }
 
 .pass.maya:hover {
+    content: '';
     background-image: url(../img/5b.webp);
 }
 
@@ -171,6 +177,7 @@ main span {
 }
 
 .pass.espirit:hover {
+    content: '';
     background-image: url(../img/6b.webp);
 }
 
@@ -184,6 +191,7 @@ main span {
 }
 
 .heart:hover {
+    content: '';
     color: #FF0000;
 }
 
